@@ -1,0 +1,57 @@
+#map-container {
+    position: relative;
+}
+
+#map {
+    height: 100vh;
+    background-color: #6D776D;
+}
+
+
+#form-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20vw;
+    height: 50vh;
+    background-color: #797777;
+    padding: 10px;
+    box-sizing: border-box;
+    border: #bbbebb 10px solid;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#form {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form div {
+    margin: 10px;
+}
+
+.add-event {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input {
+    border-radius: 8px;
+    border: 0.3px solid gray;
+}
+
+textarea {
+    border-radius: 8px;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+}
+
+#update-button {
+    position: relative;
+    z-index: 1000;
+}
